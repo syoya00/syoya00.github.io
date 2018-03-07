@@ -6,10 +6,79 @@
 </head>
 <body>
     <h1>VRアスレチック(CG演習課題)</h1>
-    <img src="VRAthletic.PNG" width="600"><br>
-    <a href="https://www.youtube.com/watch?v=VMdahbEYbEY&feature=youtu.be" >動画(Youtube)</a><br>
-    <h1>VR酔いゲーム(ABPro2017)></h1>
-    <img src="VRYoigame.PNG" width="600"><br>
-    <a href="https://www.youtube.com/watch?v=rN4Y0ObGZtA&feature=youtu.be" >動画(Youtube)</a><br>
+    コンピュータグラフィックス特論で作成した課題<br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VMdahbEYbEY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br>
+    <br>
+    仕様したツール：Unity<br>
+    対応HMD：HTCVive<br>
+    使用したアセット：SteamVR Plugin, VRTK - Virtual Reality Toolkit<br>
+    <h2>概要</h2>
+    スタート地点からゴールまでViveコントローラを用いて移動してください。<br>
+    黄色いオブジェクトにコントローラを近づけてトリガーを引くことでオブジェクトに捕まることができます。<br>
+    <h2>操作方法</h2>
+    左右トリガー：オブジェクトを掴む   タッチパッド押し込み：ワープ移動<br>
+
+    <h1>VR酔いゲーム(ABPro2017)</h1>
+    ABPro2017で発表した作品です<br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rN4Y0ObGZtA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br>
+    <br>
+    仕様したツール：Unity<br>
+    対応HMD：HTCVive<br>
+    使用したアセット：SteamVR Plugin, VRTK - Virtual Reality Toolkit<br>
+    <h2>概要</h2>
+    射的、ボウリング、綱渡りの三種類のゲームを、ベースステーションが不安定な状態でプレイします。<br>
+    サイコロを振って出た目の指示に従ってプレイを進行してください。<br>
+    遊ぶためにはSteamVR対応のHMD(HTCViveなど)とコントローラー2つが必要です。<br>
+    <h2>操作方法</h2>
+    <h3>スタートシーン</h3>
+    コントローラーをサイコロに近づけてグリップボタンを押すとサイコロを持ち上げられます。<br>
+    サイコロを投げると壁の柄が変化し、カウントダウンが始まります。<br>
+    この間で出た目の指示に従ってください。<br>
+    ● Move&amp;Shot,Move&amp;Ball,Move&amp;Rope が出た場合<br>
+    ベースステーションを今の位置から別の位置に動かしてください。<br>
+    ● Shake&amp;Shot,Shake&amp;Ball,Shake&amp;Rope が出た場合<br>
+    ベースステーションをゆっくり揺らしてください。<br>
+    カウントダウンが終わるとシーンが変化します。<br>
+    <h3>ゲームシーン</h3>
+    ● Move&amp;Shot,Shake&amp;Shot<br>
+    コントローラーを銃型のオブジェクトに近づけてグリップボタンを押すとオブジェクトを把持できます。<br>
+    オブジェクトを把持した状態でトリガーを引くと弾が発射されます。<br>
+    弾をいずれかの球体のターゲットにあてると「nice!」の文字が表示され、成功です。<br>
+    ● Move&amp;Ball,Shake&amp;Ball<br>
+    コントローラーを球体のオブジェクトに近づけてグリップボタンを押すとオブジェクトを把持できます。<br>
+    オブジェクトを把持した状態でグリップボタンを離すとオブジェクトを投げることができます。<br>
+    球体がボウリングのピンにあたり、ピンが一つでも倒れると「nice!」の文字が表示され、成功です。<br>
+    ● Move&amp;Rope,Shake&amp;Rope<br>
+    コントローラーは使用しません。<br>
+    綱状のオブジェクトが設置された方向へ自動的に移動していきます。<br>
+    頭の位置をちょうど綱状のオブジェクトの真上になるよう維持してください。<br>
+    綱状のオブジェクトから滑り落ちずに最後まで渡りきると「nice!」の文字が表示され、成功です。<br>
+    <h1>VRcraft(ABPro2016)</h1>
+    ABPro2016作品「VRcraft」を改良し、オープンキャンパスで展示した作品です<br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/17y1AmXfaVo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br>
+    <br>
+    仕様したツール：Unity<br>
+    対応HMD：HTCVive<br>
+    使用したアセット：SteamVR Plugin, VRTK - Virtual Reality Toolkit, Fantasy Skybox FREE<br>
+    <h2>概要</h2>
+    四角柱、円柱、球体をVR空間上に出力して遊ぶことができます。<br>
+    それぞれのパネルに触れるとその種類の物体が出現します。<br>
+    遊ぶためにはSteamVR対応のHMD(HTCViveなど)とコントローラー2つが必要です。<br>
+    <h2>操作方法</h2>
+    <h3>v_1.0</h3>
+    ABPro2016で作成したバージョンに近いものです。<br>
+    ● 青いパネルに触れると重力で落下する物体が出現します。<br>
+    ● 黄色いパネルに触れると重力の影響を受けない物体が出現します。<br>
+    ● 緑色のパネルのノブを上下に動かすことで、物体の縦・横・高さの大きさを変更することができます。<br>
+    ● 物体に触れながらコントローラーのグリップボタンを押すことでその物体を把持することができます。<br>
+    ● コントローラーのトリガーを引くことで物体をすべて消すことができます。<br>
+    ● 積みあがった物体に近づくと、その物体の上に立つことができます。頭の位置より高く積みあがった物体には登ることができません。<br>
+    <h3>v_2.0</h3>
+    オープンキャンパス用に操作を簡単にしたものです。<br>
+    ● パネルに触れると重力で落下する物体が音を出しながら出現します。<br>
+    ● 緑色のパネルのノブを上下に動かすことで、物体の縦・横・高さの大きさを変更することができます。<br>
+    ● 物体に触れながらコントローラーのトリガーを引くことでその物体を把持することができます。その際音が鳴ります。<br>
+    ※こちらのモードでは重力の影響を受けない物体の出力と物体の消去はできません。物体を消去したいときは再起動してください。<br>
+
 </body>
 </html>

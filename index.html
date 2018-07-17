@@ -1,155 +1,171 @@
-
 <!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <title>ポートフォリオ：高田勝也</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
-</head>
-<body>
-    <p>高田 勝也/Katsuya Takada</p>
-    <img src="syoya.jpg" width="200" height="200"><br>
-    学部研究テーマ：往復を前提とした一時的スクロール手法の提案(インタラクション2017 発表)<br>
-    修士研究テーマ：VR空間内における「眼が飛び出た」ような視界変化<br>
-    <a href="https://github.com/syoya00">Github</a>
-    <hr>
-    <h1>VRアスレチック(CG演習課題)</h1>
-    発表日：2017年6月<br>
-    コンピュータグラフィックス特論で作成した課題<br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/VMdahbEYbEY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br>
-    <br>
-    仕様したツール：Unity<br>
-    対応HMD：HTCVive<br>
-    使用したアセット：SteamVR Plugin, VRTK - Virtual Reality Toolkit<br>
-    <h2>概要</h2>
-    スタート地点からゴールまでViveコントローラを用いて移動してください。<br>
-    黄色いオブジェクトにコントローラを近づけてトリガーを引くことでオブジェクトに捕まることができます。<br>
-    <h2>操作方法</h2>
-    左右トリガー：オブジェクトを掴む   タッチパッド押し込み：ワープ移動<br>
-    <hr>
-    <h1>VR酔いゲーム(ABPro2017)</h1>
-    発表：2017年9月<br>
-    ABPro2017で発表した作品です<br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/rN4Y0ObGZtA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br>
-    <br>
-    仕様したツール：Unity<br>
-    対応HMD：HTCVive<br>
-    使用したアセット：SteamVR Plugin, VRTK - Virtual Reality Toolkit<br>
-    <h2>概要</h2>
-    射的、ボウリング、綱渡りの三種類のゲームを、ベースステーションが不安定な状態でプレイします。<br>
-    サイコロを振って出た目の指示に従ってプレイを進行してください。<br>
-    遊ぶためにはSteamVR対応のHMD(HTCViveなど)とコントローラー2つが必要です。<br>
-    <h2>操作方法</h2>
-    <h3>スタートシーン</h3>
-    コントローラーをサイコロに近づけてグリップボタンを押すとサイコロを持ち上げられます。<br>
-    サイコロを投げると壁の柄が変化し、カウントダウンが始まります。<br>
-    この間で出た目の指示に従ってください。<br>
-    ● Move&amp;Shot,Move&amp;Ball,Move&amp;Rope が出た場合<br>
-    ベースステーションを今の位置から別の位置に動かしてください。<br>
-    ● Shake&amp;Shot,Shake&amp;Ball,Shake&amp;Rope が出た場合<br>
-    ベースステーションをゆっくり揺らしてください。<br>
-    カウントダウンが終わるとシーンが変化します。<br>
-    <h3>ゲームシーン</h3>
-    ● Move&amp;Shot,Shake&amp;Shot<br>
-    コントローラーを銃型のオブジェクトに近づけてグリップボタンを押すとオブジェクトを把持できます。<br>
-    オブジェクトを把持した状態でトリガーを引くと弾が発射されます。<br>
-    弾をいずれかの球体のターゲットにあてると「nice!」の文字が表示され、成功です。<br>
-    ● Move&amp;Ball,Shake&amp;Ball<br>
-    コントローラーを球体のオブジェクトに近づけてグリップボタンを押すとオブジェクトを把持できます。<br>
-    オブジェクトを把持した状態でグリップボタンを離すとオブジェクトを投げることができます。<br>
-    球体がボウリングのピンにあたり、ピンが一つでも倒れると「nice!」の文字が表示され、成功です。<br>
-    ● Move&amp;Rope,Shake&amp;Rope<br>
-    コントローラーは使用しません。<br>
-    綱状のオブジェクトが設置された方向へ自動的に移動していきます。<br>
-    頭の位置をちょうど綱状のオブジェクトの真上になるよう維持してください。<br>
-    綱状のオブジェクトから滑り落ちずに最後まで渡りきると「nice!」の文字が表示され、成功です。<br>
-    <hr>
-    <h1>VRcraft(ABPro2016)</h1>
-    発表日：2016年9月<br>
-    ABPro2016作品「VRcraft」を改良し、オープンキャンパスで展示した作品です<br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/17y1AmXfaVo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br>
-    <br>
-    仕様したツール：Unity<br>
-    対応HMD：HTCVive<br>
-    使用したアセット：SteamVR Plugin, VRTK - Virtual Reality Toolkit, Fantasy Skybox FREE<br>
-    <h2>概要</h2>
-    四角柱、円柱、球体をVR空間上に出力して遊ぶことができます。<br>
-    それぞれのパネルに触れるとその種類の物体が出現します。<br>
-    遊ぶためにはSteamVR対応のHMD(HTCViveなど)とコントローラー2つが必要です。<br>
-    <h2>操作方法</h2>
-    <h3>v_1.0</h3>
-    ABPro2016で作成したバージョンに近いものです。<br>
-    ● 青いパネルに触れると重力で落下する物体が出現します。<br>
-    ● 黄色いパネルに触れると重力の影響を受けない物体が出現します。<br>
-    ● 緑色のパネルのノブを上下に動かすことで、物体の縦・横・高さの大きさを変更することができます。<br>
-    ● 物体に触れながらコントローラーのグリップボタンを押すことでその物体を把持することができます。<br>
-    ● コントローラーのトリガーを引くことで物体をすべて消すことができます。<br>
-    ● 積みあがった物体に近づくと、その物体の上に立つことができます。頭の位置より高く積みあがった物体には登ることができません。<br>
-    <h3>v_2.0</h3>
-    オープンキャンパス用に操作を簡単にしたものです。<br>
-    ● パネルに触れると重力で落下する物体が音を出しながら出現します。<br>
-    ● 緑色のパネルのノブを上下に動かすことで、物体の縦・横・高さの大きさを変更することができます。<br>
-    ● 物体に触れながらコントローラーのトリガーを引くことでその物体を把持することができます。その際音が鳴ります。<br>
-    ※こちらのモードでは重力の影響を受けない物体の出力と物体の消去はできません。物体を消去したいときは再起動してください。<br>
-    <hr>
-    <h1>Tribion</h1>
-    発表日：2014年10月<br>
-    サークル制作作品<br>
-    <br>
-    仕様したツール：Processing<br>
-    <h2>概要</h2>
-    サークルで制作したシューティングゲームです。<br>
-    <a href="https://syoya00.github.io/Tribion/">processing.js版</a>
-    <h2>操作方法</h2>
-    メニューでの操作<br>
-    Enterキー：決定<br>
-    Shiftキー：戻る<br>
-    ↑キー、↓キー：選択<br>
-    ゲーム中の動作<br>
-    Spaceキー：ショット<br>
-    ↑、↓、→、←キー：自機の移動<br>
-    Shiftキー：押し続けることで低速移動モード<br>
-    <br>
-    <hr>
-    <h1>pacpac_game</h1>
-    発表日：2015年10月<br>
-    サークル制作作品<br>
-    <br>
-    仕様したツール：Processing<br>
-    <h2>概要</h2>
-    サークルで制作したぱくぱくゲームです<br>
-    <a href="https://syoya00.github.io/pacpac_game/">processing.js版</a>
-    <h2>操作方法</h2>
-    w:上に移動<br>
-    s:下に移動<br>
-    a:左に移動<br>
-    d:右に移動<br>
-    r:リセット（最初からスタート）<br>
-    ぱくぱくを動かしてアイテムを全て食べましょう。<br>
-    画面左上からスタートです。<br>
-    全てのアイテムを食べ終わると次のステージに進みます。<br>
-    ステージを進めるほどに敵の数が増えていきます。<br>
-    敵に触れてしまうとミスとなり、そのステージの最初からやり直しです。<br>
-    <hr>
-    <h1>slidePuzzle</h1>
-    発表日：2015年10月<br>
-    サークル制作作品<br>
-    <br>
-    仕様したツール：Processing<br>
-    <h2>概要</h2>
-    サークルで制作したスライドパズルです。<br>
-    <a href="https://syoya00.github.io/slidePuzzle/">processing.js版</a>
-    <h2>操作方法</h2>
-    Enter:ゲーム開始（スタート画面）、名前の決定（名前入力画面）<br>
-    カーソルキー上下:アルファベットの選択（名前入力画面）<br>
-    カーソルキー左右：文字箇所の選択（名前入力画面）<br>
-    マウス左クリック：パズルをつかむ＆離す（ゲーム画面）<br>
-    マウス右クリック：つかんだパズルの移動（ゲーム画面）<br>
-    パズルを並べて高得点を目指しましょう。<br>
-    縦か横に3つ以上同じ色のパズルがそろうと消えます。<br>
-    パズルが消えた後に落ちてきたパズルがそろうと連鎖して消えます。<br>
-    パズルを連鎖して消すと高得点が入るのでどんどん連鎖しましょう。<br>
-    3文字のアルファベットを入力してランキングに登録することもできます。<br>
-    <br>
-</body>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Katsuya Takada</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/2-col-portfolio.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Katsuya Takada</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Page Heading -->
+      <h1 class="my-4">
+        <small></small>
+      </h1>
+
+      <div class="row">
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <a href="VRAthletic.html"><img class="card-img-top" src="VRAthletic.PNG" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="VRAthletic.html">VRアスレチック</a>
+              </h4>
+              <p class="card-text">コンピュータグラフィックス特論で作成した課題</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <a href="VRYoiGame.html"><img class="card-img-top" src="VRYoigame.PNG" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="VRYoiGame.html">VR酔いゲーム</a>
+              </h4>
+              <p class="card-text">ABPro2017で発表した作品</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <a href="VRcraft.html"><img class="card-img-top" src="VRcraft.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="VRcraft.html">VRcraft</a>
+              </h4>
+              <p class="card-text">ABPro2016作品「VRcraft」を改良し、オープンキャンパスで展示した作品です</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Project Four</a>
+              </h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates quae, necessitatibus unde temporibus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Project Five</a>
+              </h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Project Six</a>
+              </h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates quae, necessitatibus unde temporibus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <!-- Pagination -->
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
 </html>

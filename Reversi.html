@@ -10,6 +10,8 @@
 
     <title>Katsuya Takada</title>
 
+    <script type="text/javascript" src="p.minim.js"></script>
+
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -53,8 +55,9 @@
       <!-- Portfolio Item Row -->
       <div class="row">
 
-        <div class="col-md-8">
-          <img class="img-fluid" src="Reversi.PNG" alt="">
+        <div class="col-md-8">                
+          <canvas data-processing-sources="Reversi/Menu.pde Reversi/PlayerAI.pde Reversi/reversi.pde Reversi/ReversiMap.pde"></canvas>
+          <script src="./processing.min.js"></script>
         </div>
 
         <div class="col-md-4">
